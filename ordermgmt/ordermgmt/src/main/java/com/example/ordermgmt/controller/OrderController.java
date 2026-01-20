@@ -29,4 +29,9 @@ public class OrderController {
     public Order getOrder(@PathVariable int id){
         return orderRepository.findById(id).get();
     }
+     @GetMapping
+    public List<Order> getAllOrders() {
+        return orderRepository.findAll();
+    }
 }
+
