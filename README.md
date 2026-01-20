@@ -13,4 +13,10 @@ Technologies Used
 Api testing using postman
 
 Get all orders
-http://localhost:8080/user
+http://localhost:8080/order
+{
+  "productName": "Laptop",
+  "quantity": 2,
+  "price": 50000
+}
+
